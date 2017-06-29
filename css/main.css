@@ -12,11 +12,11 @@ html {
 }
 
 body {
-    background-color: #e84646;
+    background-color: #000000;
 }
 
 .lg {
     display: block;
     margin: auto;
-    width: 56%;
+    width: 60%;
 }
