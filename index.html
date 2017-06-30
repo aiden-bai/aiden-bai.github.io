@@ -1,0 +1,353 @@
+<html>
+
+<head>
+    <title>Tic Tac Toe</title>
+
+    <style>
+        /* make this an external style sheet */
+        
+        body {
+            
+        }
+        
+        #outer_1 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            margin-left: 50px;
+            padding: 20px;
+            width: 240px;
+            height: 220px;
+            border-right: 20px solid black;
+            border-bottom: 20px solid black;
+        }
+        
+        #inner_1 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_2 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            padding: 20px;
+            width: 220px;
+            height: 220px;
+            border-left: 20px solid black;
+            border-bottom: 20px solid black;
+            border-right: 20px solid black;
+        }
+        
+        #inner_2 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_3 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            padding: 20px;
+            width: 240px;
+            height: 220px;
+            border-left: 20px solid black;
+            border-bottom: 20px solid black;
+        }
+        
+        #inner_3 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #block {
+            display: block;
+        }
+      
+        #inline {
+            display: inline-block;
+        }
+        #outer_4 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            margin-left: 50px;
+            padding: 20px;
+            width: 240px;
+            height: 220px;
+            border-right: 20px solid black;
+            border-bottom: 20px solid black;
+            border-top: 20px solid black;
+        }
+        
+        #inner_4 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_5 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            padding: 20px;
+            width: 220px;
+            height: 220px;
+            border-left: 20px solid black;
+            border-bottom: 20px solid black;
+            border-top: 20px solid black;
+            border-right: 20px solid black;
+        }
+        
+        #inner_5 {  
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_6 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            padding: 20px;
+            width: 240px;
+            height: 220px;
+            border-left: 20px solid black;
+            border-top: 20px solid black;
+            border-bottom: 20px solid black;
+        }
+        
+        #inner_6 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_7 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            margin-left: 50px;
+            padding: 20px;
+            width: 240px;
+            height: 220px;
+            border-right: 20px solid black;
+            border-top: 20px solid black;
+        }
+        
+        #inner_7 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_8 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            padding: 20px;
+            width: 220px;
+            height: 220px;
+            border-left: 20px solid black;
+            border-top: 20px solid black;
+            border-right: 20px solid black;
+        }
+        
+        #inner_8 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_9 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            padding: 20px;
+            width: 240px;
+            height: 220px;
+            border-left: 20px solid black;
+            border-top: 20px solid black;
+        }
+        
+        #inner_9 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        #ruler_1 {
+            display: inline-block;
+            margin: 0px;
+            margin-left: 50px;
+            padding: 0px;
+            width: 300px;
+            height: 10px;
+            background-color: yellow;
+        }
+        
+        #ruler_2 {
+            display: inline-block;
+            margin: 0px;
+            padding: 0px;
+            width: 300px;
+            height: 10px;
+            background-color: orange;
+        }
+        
+        #ruler_3 {
+            display: inline-block;
+            margin: 0px;
+            padding: 0px;
+            width: 300px;
+            height: 10px;
+            background-color: red;
+        }
+        /* make ruler2 and ruler 3 different colors to measure */
+
+    </style>
+
+    <script>
+        var current = "X";
+
+        window.onload = function() {
+
+            /* when inner_1 is clicked, change the value to X or O */
+            document.getElementById("inner_1").onclick = function() {
+                document.getElementById("inner_1").innerHTML = current;
+                /* ..and then update the X to an O or vice versa */
+                if (current == "X") {
+                    current = "O";
+                } else if (current == "O") {
+                    current = "X";
+                }
+            }
+            
+            document.getElementById("inner_2").onclick = function() {
+                document.getElementById("inner_2").innerHTML = current;
+                /* ..and then update the X to an O or vice versa */
+                if (current == "X") {
+                    current = "O";
+                } else if (current == "O") {
+                    current = "X";
+                }
+            }
+            
+            document.getElementById("inner_3").onclick = function() {
+                document.getElementById("inner_3").innerHTML = current;
+                /* ..and then update the X to an O or vice versa */
+                if (current == "X") {
+                    current = "O";
+                } else if (current == "O") {
+                    current = "X";
+                }
+            }
+            
+            document.getElementById("inner_4").onclick = function() {
+                document.getElementById("inner_4").innerHTML = current;
+                /* ..and then update the X to an O or vice versa */
+                if (current == "X") {
+                    current = "O";
+                } else if (current == "O") {
+                    current = "X";
+                }
+            }
+            document.getElementById("inner_5").onclick = function() {
+                document.getElementById("inner_5").innerHTML = current;
+                /* ..and then update the X to an O or vice versa */
+                if (current == "X") {
+                    current = "O";
+                } else if (current == "O") {
+                    current = "X";
+                }
+            }
+            document.getElementById("inner_6").onclick = function() {
+                document.getElementById("inner_6").innerHTML = current;
+                /* ..and then update the X to an O or vice versa */
+                if (current == "X") {
+                    current = "O";
+                } else if (current == "O") {
+                    current = "X";
+                }
+            }
+            document.getElementById("inner_7").onclick = function() {
+                document.getElementById("inner_7").innerHTML = current;
+                /* ..and then update the X to an O or vice versa */
+                if (current == "X") {
+                    current = "O";
+                } else if (current == "O") {
+                    current = "X";
+                }
+            }
+            document.getElementById("inner_8").onclick = function() {
+                document.getElementById("inner_8").innerHTML = current;
+                /* ..and then update the X to an O or vice versa */
+                if (current == "X") {
+                    current = "O";
+                } else if (current == "O") {
+                    current = "X";
+                }
+            }
+            document.getElementById("inner_9").onclick = function() {
+                document.getElementById("inner_9").innerHTML = current;
+                /* ..and then update the X to an O or vice versa */
+                if (current == "X") {
+                    current = "O";
+                } else if (current == "O") {
+                    current = "X";
+                }
+            }
+            /* wire up boxes 2 & 3 for X and O */
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <div id="ruler_1"></div><div id="ruler_2"></div><div id="ruler_3"></div><div id="block"></div><br>
+    <div id="outer_1">
+        <div id="inner_1">
+            _
+        </div>
+    </div><div id="outer_2">
+        <div id="inner_2">
+            _
+        </div>
+    </div><div id="outer_3">
+        <div id="inner_3">
+            _
+        </div>
+    </div><div id="block">
+        </div><div id="outer_4">
+        <div id="inner_4">
+            _
+        </div>
+    </div><div id="outer_5">
+        <div id="inner_5">
+            _
+        </div>
+    </div><div id="outer_6">
+        <div id="inner_6">
+            _
+        </div>
+    </div><div id="block">
+        </div>
+     <div id="outer_7">
+        <div id="inner_7">
+            _
+        </div>
+    </div><div id="outer_8">
+        <div id="inner_8">
+            _
+        </div>
+    </div><div id="outer_9">
+        <div id="inner_9">
+            _
+    </div></div>
+</body>
+
+</html>
