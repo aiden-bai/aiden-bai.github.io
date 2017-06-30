@@ -1,22 +1,202 @@
-@font-face {
-    font-family: nokia;
-    src: url(display/fonts/nokiafc22.ttf);
-}
-
-html {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-body {
-    background-color: #e13838;
-}
-
-.lg {
-    display: block;
-    margin: auto;
-    width: 56%;
-}
+ /* make this an external style sheet */
+        
+        body {
+            
+        }
+        
+        #outer_1 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            margin-left: 50px;
+            padding: 20px;
+            width: 240px;
+            height: 220px;
+            border-right: 20px solid black;
+            border-bottom: 20px solid black;
+        }
+        
+        #inner_1 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_2 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            padding: 20px;
+            width: 220px;
+            height: 220px;
+            border-left: 20px solid black;
+            border-bottom: 20px solid black;
+            border-right: 20px solid black;
+        }
+        
+        #inner_2 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_3 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            padding: 20px;
+            width: 240px;
+            height: 220px;
+            border-left: 20px solid black;
+            border-bottom: 20px solid black;
+        }
+        
+        #inner_3 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #block {
+            display: block;
+        }
+      
+        #inline {
+            display: inline-block;
+        }
+        #outer_4 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            margin-left: 50px;
+            padding: 20px;
+            width: 240px;
+            height: 220px;
+            border-right: 20px solid black;
+            border-bottom: 20px solid black;
+            border-top: 20px solid black;
+        }
+        
+        #inner_4 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_5 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            padding: 20px;
+            width: 220px;
+            height: 220px;
+            border-left: 20px solid black;
+            border-bottom: 20px solid black;
+            border-top: 20px solid black;
+            border-right: 20px solid black;
+        }
+        
+        #inner_5 {  
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_6 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            padding: 20px;
+            width: 240px;
+            height: 220px;
+            border-left: 20px solid black;
+            border-top: 20px solid black;
+            border-bottom: 20px solid black;
+        }
+        
+        #inner_6 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_7 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            margin-left: 50px;
+            padding: 20px;
+            width: 240px;
+            height: 220px;
+            border-right: 20px solid black;
+            border-top: 20px solid black;
+        }
+        
+        #inner_7 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_8 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            padding: 20px;
+            width: 220px;
+            height: 220px;
+            border-left: 20px solid black;
+            border-top: 20px solid black;
+            border-right: 20px solid black;
+        }
+        
+        #inner_8 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        
+        #outer_9 {
+            display: inline-block;
+            background-color: green;
+            margin: 0px;
+            padding: 20px;
+            width: 240px;
+            height: 220px;
+            border-left: 20px solid black;
+            border-top: 20px solid black;
+        }
+        
+        #inner_9 {
+            background-color: red;
+            margin: 70px;
+            padding: 20px;
+        }
+        #ruler_1 {
+            display: inline-block;
+            margin: 0px;
+            margin-left: 50px;
+            padding: 0px;
+            width: 300px;
+            height: 10px;
+            background-color: yellow;
+        }
+        
+        #ruler_2 {
+            display: inline-block;
+            margin: 0px;
+            padding: 0px;
+            width: 300px;
+            height: 10px;
+            background-color: orange;
+        }
+        
+        #ruler_3 {
+            display: inline-block;
+            margin: 0px;
+            padding: 0px;
+            width: 300px;
+            height: 10px;
+            background-color: red;
+        }
+        /* make ruler2 and ruler 3 different colors to measure */
