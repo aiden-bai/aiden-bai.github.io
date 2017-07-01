@@ -1,8 +1,6 @@
-/* make this an external style sheet */
+  /* make this an external style sheet */
         
-        body {
-            
-        }
+        body {}
         
         #outer_1 {
             display: inline-block;
@@ -21,6 +19,7 @@
             text-align: center;
             margin: 70px;
             padding: 20px;
+            box-shadow: 10px 10px 5px #006400;
         }
         
         #outer_2 {
@@ -40,6 +39,7 @@
             text-align: center;
             margin: 70px;
             padding: 20px;
+            box-shadow: 10px 10px 5px #006400;
         }
         
         #outer_3 {
@@ -51,6 +51,7 @@
             height: 220px;
             border-left: 20px solid black;
             border-bottom: 20px solid black;
+            box-shadow: 10px 10px 5px #888888;
         }
         
         #inner_3 {
@@ -58,15 +59,17 @@
             text-align: center;
             margin: 70px;
             padding: 20px;
+            box-shadow: 10px 10px 5px #006400;
         }
         
         #block {
             display: block;
         }
-      
+        
         #inline {
             display: inline-block;
         }
+        
         #outer_4 {
             display: inline-block;
             background-color: green;
@@ -85,6 +88,7 @@
             text-align: center;
             margin: 70px;
             padding: 20px;
+            box-shadow: 10px 10px 5px #006400;
         }
         
         #outer_5 {
@@ -100,11 +104,12 @@
             border-right: 20px solid black;
         }
         
-        #inner_5 {  
+        #inner_5 {
             background-color: red;
             text-align: center;
             margin: 70px;
             padding: 20px;
+            box-shadow: 10px 10px 5px #006400;
         }
         
         #outer_6 {
@@ -117,6 +122,7 @@
             border-left: 20px solid black;
             border-top: 20px solid black;
             border-bottom: 20px solid black;
+            box-shadow: 10px 10px 5px #888888;
         }
         
         #inner_6 {
@@ -124,6 +130,7 @@
             text-align: center;
             margin: 70px;
             padding: 20px;
+            box-shadow: 10px 10px 5px #006400;
         }
         
         #outer_7 {
@@ -136,6 +143,7 @@
             height: 220px;
             border-right: 20px solid black;
             border-top: 20px solid black;
+            box-shadow: 10px 10px 5px #888888;
         }
         
         #inner_7 {
@@ -143,6 +151,7 @@
             text-align: center;
             margin: 70px;
             padding: 20px;
+            box-shadow: 10px 10px 5px #006400;
         }
         
         #outer_8 {
@@ -155,6 +164,7 @@
             border-left: 20px solid black;
             border-top: 20px solid black;
             border-right: 20px solid black;
+            box-shadow: 10px 10px 5px #888888;
         }
         
         #inner_8 {
@@ -162,6 +172,7 @@
             text-align: center;
             margin: 70px;
             padding: 20px;
+            box-shadow: 10px 10px 5px #006400;
         }
         
         #outer_9 {
@@ -173,6 +184,7 @@
             height: 220px;
             border-left: 20px solid black;
             border-top: 20px solid black;
+            box-shadow: 10px 10px 5px #888888;
         }
         
         #inner_9 {
@@ -180,7 +192,9 @@
             text-align: center;
             margin: 70px;
             padding: 20px;
+            box-shadow: 10px 10px 5px #006400;
         }
+        
         #ruler_1 {
             display: inline-block;
             margin: 0px;
